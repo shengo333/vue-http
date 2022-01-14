@@ -1,15 +1,18 @@
 <template>
  <PostList />
+ <CreateList />
 </template>
 
 <script>
 
 import PostList from './components/PostList.vue'
+import CreateList from './components/CreatePost.vue'
 
 export default {
   name: 'App',
   components: {
     PostList,
+    CreateList,
   }
 }
 </script>
